@@ -66,7 +66,7 @@ const Home: NextPage = () => {
       <Sidebar />
       <div className="ml-auto w-[85%] text-white bg-white h-24 flex items-center justify-between pr-4">
         <ul className="flex text-syarpamainblue items-center">
-          <li className="text-[18px] border-r border-syarpamainblue last:border-transparent mr-2 pr-2">
+          <li className="text-[18px] font-normal border-r border-syarpamainblue last:border-transparent mr-2 pr-2">
             Dashboard
           </li>
           <li className="text-[20px] font-normal  mr-2 pr-2">
