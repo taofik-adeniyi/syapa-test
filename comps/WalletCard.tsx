@@ -1,4 +1,5 @@
 import React from "react";
+import commaNumber from "comma-number";
 
 const WalletCard = (props: any) => {
   const { balanceType, nairaValue, usdValue } = props;
@@ -21,10 +22,10 @@ const WalletCard = (props: any) => {
         )}
         {nairaValue && (
           <h1 className="text-[32px] font-semibold leading-10">
-            ₦ {nairaValue}
+            ₦ {commaNumber(nairaValue)}
           </h1>
         )}
-        {usdValue && <small>${usdValue}</small>}
+        {usdValue && <small>${commaNumber(usdValue)}</small>}
       </div>
       <div
         id="arrow"

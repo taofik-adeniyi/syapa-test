@@ -8,6 +8,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: Cerebri-Sans;
+  color: white;
+  background: white;
 }
 
 a {
@@ -25,8 +27,12 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: white;
   }
+}
+
+.body-h {
+  height: calc(100vh - 6rem);
 }
 
 .wallet {
@@ -45,15 +51,18 @@ a {
 }
 
 .crypto {
-  background: rgba(0, 172, 79, 0.03);
+  background: rgba(0, 172, 79, 0.1);
 }
-.crypto h3 h1 {
-  color: #00ac4f;
-}
-
 .crypto small {
   color: rgba(0, 172, 79, 0.5);
 }
+.crypto h3 {
+  color: #00ac4f;
+}
+.crypto h1 {
+  color: #1b8c4f;
+}
+
 .crypto #arrow {
   background: #00ac4f;
   opacity: 0.17;

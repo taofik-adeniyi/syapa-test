@@ -52,7 +52,7 @@ const Input = (props: InputProps) => {
           type={type}
           value={value}
           onBlur={onBlur}
-          className={`input-tag ml-3  placeholder-syarpasecondaryarsh`}
+          className={`input-tag ml-3  placeholder-syarpasecondaryarsh text-syarpasecondaryarsh`}
           placeholder={placeholder}
           style={style}
         />
