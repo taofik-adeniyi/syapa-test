@@ -5,9 +5,11 @@
   "scripts": {
     "start": "next start",
     "lint": "next lint",
-    "dev": "npm run tailwind:css && next dev",
+    "dev": "next dev",
+    "build": "next build",
+    "dev:tailwind": "npm run tailwind:css && next dev",
     "tailwind:css": "tailwind build -i styles/tailwind.css -c tailwind.config.js -o styles/globals.css",
-    "build": "npm run tailwind:css && react-scripts next build"
+    "build:tailwind": "npm run tailwind:css && react-scripts next build"
   },
   "dependencies": {
     "comma-number": "^2.1.0",
