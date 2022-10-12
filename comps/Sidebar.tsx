@@ -140,7 +140,7 @@ const Sidebar = () => {
   const { pathname } = useRouter();
 
   return (
-    <div className="bg-white p-5 pt-8 fixed top-0 bottom-0 left-0 z-50 w-[15%]">
+    <div className="bg-white p-5 pt-[1.2rem] fixed top-0 bottom-0 left-0 z-50 w-[15%]">
       <SyarpaLogo />
 
       <ul className="m-0 p-0 mt-10 flex flex-col mb-32">
