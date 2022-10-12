@@ -1,9 +1,40 @@
 import React from "react";
-import { QRCode } from "../assets/svg";
-import { syarpaBalance } from "../utils";
+import {
+  CryptoPlusIcon,
+  QRCode,
+  WalletPlusIcon,
+  FiatPLusIcon,
+} from "../assets/svg";
 import Button from "./Button";
 import WalletCard from "./WalletCard";
 
+interface balanceType {
+  balanceType: string;
+  nairaValue: number;
+  usdValue: number;
+  icon: React.ReactNode;
+}
+
+const syarpaBalance: balanceType[] = [
+  {
+    balanceType: "wallet",
+    nairaValue: 234784.0,
+    usdValue: 45895,
+    icon: <WalletPlusIcon />,
+  },
+  {
+    balanceType: "crypto",
+    nairaValue: 234784.0,
+    usdValue: 45895,
+    icon: <CryptoPlusIcon />,
+  },
+  {
+    balanceType: "fiat",
+    nairaValue: 234784.0,
+    usdValue: 45895,
+    icon: <FiatPLusIcon />,
+  },
+];
 const WalletContainer = () => {
   return (
     <div className="w-full py-5 pr-5">
@@ -13,7 +44,7 @@ const WalletContainer = () => {
           Your total balance on syarpa
         </h3>
       </div>
-      {syarpaBalance().map((balanceType, idx) => {
+      {syarpaBalance.map((balanceType, idx) => {
         return <WalletCard {...balanceType} key={idx} />;
       })}
       <div className="mt-8 mb-4 flex gap-x-2 w-[439px]  justify-between">

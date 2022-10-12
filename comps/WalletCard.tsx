@@ -2,7 +2,7 @@ import React from "react";
 import commaNumber from "comma-number";
 
 const WalletCard = (props: any) => {
-  const { balanceType, nairaValue, usdValue } = props;
+  const { balanceType, nairaValue, usdValue, icon } = props;
   const balanceTypeClass =
     balanceType == "wallet"
       ? "wallet"
@@ -27,10 +27,7 @@ const WalletCard = (props: any) => {
         )}
         {usdValue && <small>${commaNumber(usdValue)}</small>}
       </div>
-      <div
-        id="arrow"
-        className="w-[38px] h-[38px] opacity-10 rounded-full bg-inherit"
-      ></div>
+      {icon}
     </div>
   );
 };

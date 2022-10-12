@@ -464,3 +464,78 @@ export const QRCode = () => {
     </svg>
   );
 };
+
+export const WalletPlusIcon = () => {
+  return (
+    <svg
+      width="38"
+      height="39"
+      viewBox="0 0 38 39"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        opacity="0.165"
+        d="M19 38.5C29.4934 38.5 38 29.9934 38 19.5C38 9.00659 29.4934 0.5 19 0.5C8.50659 0.5 0 9.00659 0 19.5C0 29.9934 8.50659 38.5 19 38.5Z"
+        fill="white"
+      />
+      <path
+        d="M17 15L21.5 19.5L17 24"
+        stroke="white"
+        stroke-width="2"
+        stroke-miterlimit="10"
+        stroke-linecap="square"
+      />
+    </svg>
+  );
+};
+
+export const CryptoPlusIcon = () => {
+  return (
+    <svg
+      width="38"
+      height="39"
+      viewBox="0 0 38 39"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        opacity="0.165"
+        d="M19 38.5C29.4934 38.5 38 29.9934 38 19.5C38 9.00659 29.4934 0.5 19 0.5C8.50659 0.5 0 9.00659 0 19.5C0 29.9934 8.50659 38.5 19 38.5Z"
+        fill="#00AC4F"
+      />
+      <path
+        d="M17 15L21.5 19.5L17 24"
+        stroke="#00AC4F"
+        stroke-width="2"
+        stroke-miterlimit="10"
+        stroke-linecap="square"
+      />
+    </svg>
+  );
+};
+
+export const FiatPLusIcon = () => {
+  return (
+    <svg
+      width="38"
+      height="39"
+      viewBox="0 0 38 39"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        opacity="0.165"
+        d="M19 38.5C29.4934 38.5 38 29.9934 38 19.5C38 9.00659 29.4934 0.5 19 0.5C8.50659 0.5 0 9.00659 0 19.5C0 29.9934 8.50659 38.5 19 38.5Z"
+        fill="#7B61FF"
+      />
+      <path
+        d="M17 15L21.5 19.5L17 24"
+        stroke="#7B61FF"
+        stroke-width="2"
+        stroke-miterlimit="10"
+        stroke-linecap="square"
+      />
+    </svg>
+  );
+};
