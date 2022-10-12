@@ -99,8 +99,8 @@ export const TetherImage = () => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M22.48 45.48C10.064 45.48 0 35.416 0 23C0 10.584 10.064 0.52002 22.48 0.52002C34.896 0.52002 44.96 10.584 44.96 23C44.96 35.416 34.896 45.48 22.48 45.48ZM25.1804 19.8992V16.575H32.7871V11.5057H12.076V16.575H19.6826V19.8978C13.5006 20.1816 8.8515 21.4067 8.8515 22.8736C8.8515 24.3404 13.5006 25.5641 19.6826 25.8494V36.5021H25.1804V25.8465C31.3526 25.5627 35.9905 24.339 35.9905 22.8736C35.9905 21.4082 31.3526 20.1844 25.1804 19.8992ZM25.1804 24.9431V24.9403C25.0259 24.9516 24.2292 24.9993 22.4519 24.9993C21.0328 24.9993 20.0339 24.9572 19.6826 24.9403V24.9445C14.22 24.7043 10.1427 23.7531 10.1427 22.615C10.1427 21.4784 14.22 20.5272 19.6826 20.2827V23.9976C20.0395 24.0229 21.0624 24.0833 22.4758 24.0833C24.1716 24.0833 25.0216 24.013 25.1804 23.999V20.2856C30.6318 20.5286 34.6993 21.4798 34.6993 22.615C34.6993 23.7531 30.6318 24.7015 25.1804 24.9431Z"
         fill="#23C1A9"
       />
@@ -273,9 +273,9 @@ export const SyarpaLogo = () => {
           width="56.7816"
           height="57.3783"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
