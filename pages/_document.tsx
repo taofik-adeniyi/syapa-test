@@ -1,7 +1,13 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, {
+  DocumentContext,
+  DocumentInitialProps,
+  Html,
+  Head,
+  Main,
+  NextScript,
+} from "next/document";
 import packageJson from "../package.json";
-
-class CustomDocument extends Document {
+class MyDocument extends Document {
   render = () => (
     <Html lang="en">
       <Head>
@@ -39,6 +45,13 @@ class CustomDocument extends Document {
       </body>
     </Html>
   );
+  static async getInitialProps(
+    ctx: DocumentContext
+  ): Promise<DocumentInitialProps> {
+    const initialProps = await Document.getInitialProps(ctx);
+
+    return initialProps;
+  }
 }
 
-export default CustomDocument;
+export default MyDocument;
