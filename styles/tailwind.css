@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Cerebri-Sans;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.wallet {
+  background: #2033a0;
+  box-shadow: 7px 7px 55px rgba(2, 9, 46, 0.07);
+}
+.wallet h3 h1 {
+  color: #ffffff;
+}
+.wallet small {
+  color: rgba(255, 255, 255, 0.5);
+}
+.wallet #arrow {
+  background: #ffffff;
+  opacity: 0.17;
+}
+
+.crypto {
+  background: rgba(0, 172, 79, 0.03);
+}
+.crypto h3 h1 {
+  color: #00ac4f;
+}
+
+.crypto small {
+  color: rgba(0, 172, 79, 0.5);
+}
+.crypto #arrow {
+  background: #00ac4f;
+  opacity: 0.17;
+}
+
+.fiat {
+  background: rgba(123, 97, 255, 0.03);
+}
+
+.fiat h3 h1 {
+  color: #7b61ff;
+}
+
+.fiat h1 {
+  color: #7b61ff;
+}
+.fiat small {
+  color: rgba(123, 97, 255, 0.5);
+}
+.fiat #arrow {
+  background: #7b61ff;
+  opacity: 0.17;
+}
+.send-naira-card {
+  box-shadow: 7px 7px 55px rgba(2, 9, 46, 0.07);
+  padding: 15px 30px;
+}
+
+.btn-primary {
+  @apply bg-syarpamainblue text-white border-2 border-transparent p-[10px] min-h-[48px] text-base;
+}
+.btn-outline {
+  @apply bg-white text-syarpamainblue border-2 border-syarpamainblue p-[10px] min-h-[48px] text-base;
+}
+.input-tag {
+  @apply w-full p-2 h-11 outline-none appearance-none bg-inherit;
+}
+
+table {
+  border-collapse: separate;
+  /* border-spacing: 20px 0; */
+}
+th {
+  background-color: #4287f5;
+  color: white;
+}
+th,
+td {
+  width: fit-content;
+  text-align: center;
+  /* border: 1px solid black; */
+  /* padding: 5px; */
+}
+tr {
+  margin-bottom: 10px;
+}
+
+@font-face {
+  font-family: "Cerebri-Sans";
+  font-display: swap;
+  src: url("../assets/fonts/cerebri/CerebriSansPro-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Cerebri-Sans";
+  font-display: swap;
+  src: url("../assets/fonts/cerebri/CerebriSansPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Cerebri-Sans";
+  font-display: swap;
+  src: url("../assets/fonts/cerebri/CerebriSansPro-Medium.ttf")
+    format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Cerebri-SemiBold sans";
+  font-display: swap;
+  src: url("../assets/fonts/cerebri/CerebriSansPro-SemiBold.ttf")
+    format("truetype");
+  font-weight: 900;
+}
