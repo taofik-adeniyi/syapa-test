@@ -17,7 +17,7 @@ const WalletCard = (props: any) => {
       <div className="flex flex-1 flex-col">
         {balanceType && (
           <h3 className="font-normal text-[11px] leading-[14px]">
-            Total {balanceType} Balance
+            Total <span className="capitalize">{balanceType}</span> Balance
           </h3>
         )}
         {nairaValue && (

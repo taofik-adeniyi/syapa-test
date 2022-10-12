@@ -123,21 +123,21 @@ tr {
 @font-face {
   font-family: "Cerebri-Sans";
   font-display: swap;
-  src: url("../assets/fonts/cerebri/CerebriSansPro-Regular.ttf")
+  src: url("../public/fonts/cerebri/CerebriSansPro-Regular.ttf")
     format("truetype");
 }
 
 @font-face {
   font-family: "Cerebri-Sans";
   font-display: swap;
-  src: url("../assets/fonts/cerebri/CerebriSansPro-Bold.ttf") format("truetype");
+  src: url("../public/fonts/cerebri/CerebriSansPro-Bold.ttf") format("truetype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Cerebri-Sans";
   font-display: swap;
-  src: url("../assets/fonts/cerebri/CerebriSansPro-Medium.ttf")
+  src: url("../public/fonts/cerebri/CerebriSansPro-Medium.ttf")
     format("truetype");
   font-weight: 400;
 }
@@ -145,7 +145,7 @@ tr {
 @font-face {
   font-family: "Cerebri-SemiBold sans";
   font-display: swap;
-  src: url("../assets/fonts/cerebri/CerebriSansPro-SemiBold.ttf")
+  src: url("../public/fonts/cerebri/CerebriSansPro-SemiBold.ttf")
     format("truetype");
   font-weight: 900;
 }
