@@ -12,7 +12,7 @@ const Layout = (props: LayoutPropTypes) => {
     <div className="bg-white m-0 p-0 relative">
       <Sidebar />
       <Header pageName={pageTitle} />
-      <div className="bg-white body-h w-full md:w-[85%] pb-2 flex flex-col md:flex-row ml-0 md:ml-auto">
+      <div className="mt-24 md:mt-0 relative bg-white body-h w-full md:w-[85%] pb-2 flex flex-col md:flex-row ml-0 md:ml-auto">
         {children}
       </div>
     </div>

@@ -7,7 +7,7 @@ const Header = (props: HeaderTypes) => {
   const [width] = useWidth();
   const { pageName = "Dashboard" } = props;
   return (
-    <div className="fixed md:relative z-50 ml-0 md:ml-auto w-full md:w-[85%] text-white h-24 bg-syarpamainblue md:bg-white flex items-center justify-between pr-4 border-b border-syarpasecondaryarsh border-opacity-25 md:border-0">
+    <div className="top-0 fixed md:relative z-50 ml-0 md:ml-auto w-full md:w-[85%] text-white h-24 bg-syarpamainblue md:bg-white flex items-center justify-between pr-4 border-b border-syarpasecondaryarsh border-opacity-25 md:border-0">
       <ul className="flex flex-col md:flex-row text-white md:text-syarpamainblue items-start md:items-center m-0 p-2 md:p-0">
         <li className="text-sm md:text-[18px] font-normal border-r border-syarpamainblue last:border-transparent mr-2 pr-2">
           {pageName}
