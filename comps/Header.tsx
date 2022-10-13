@@ -19,7 +19,7 @@ const Header = (props: HeaderTypes) => {
           <div className="bg-syarpamainpink absolute rounded-[50%] w-[10px] h-[10px] items-center justify-center text-xs flex right-0 top-0 text-white" />
           <Bell />
         </div>
-        <button className="bg-syarpamainpink p-2 flex items-center gap-x-2 justify-center min-w-fit w-[179px] text-base">
+        <button className="bg-syarpamainpink p-2 flex items-center gap-x-2 justify-center min-w-fit md:w-[179px] text-base">
           <SwapIcon /> Swap Coins
         </button>
       </div>
