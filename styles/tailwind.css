@@ -91,6 +91,12 @@ a {
   padding: 15px 30px;
 }
 
+@media (max-width: 768px) {
+  .send-naira-card {
+    padding: 5px 10px;
+  }
+}
+
 .btn-primary {
   @apply bg-syarpamainblue text-white border-2 border-transparent p-[10px] min-h-[48px] text-base;
 }

@@ -37,7 +37,7 @@ const syarpaBalance: balanceType[] = [
 ];
 const WalletContainer = () => {
   return (
-    <div className="w-full py-5 pr-5">
+    <div className="w-full py-5 md:pr-5">
       <div className="flex flex-col gap-y-4 mb-8">
         <h2 className="text-syarpamainblue">Wallet Balance</h2>
         <h3 className="text-syarpasecondaryarsh font-normal text-[20px]">
@@ -47,7 +47,7 @@ const WalletContainer = () => {
       {syarpaBalance.map((balanceType, idx) => {
         return <WalletCard {...balanceType} key={idx} />;
       })}
-      <div className="mt-8 mb-4 flex gap-x-2 w-[439px]  justify-between">
+      <div className="mt-8 mb-4 flex gap-x-2 w-full md:w-[439px]  justify-between">
         <Button
           type="button"
           variant="primary"
@@ -63,7 +63,7 @@ const WalletContainer = () => {
           Withdraw funds
         </Button>
       </div>
-      <div className="p-7 flex items-center justify-between w-[439px]  border border-[#DCDFF0]">
+      <div className="p-7 flex items-center justify-between w-full md:w-[439px]  border border-[#DCDFF0]">
         <div className="gap-y-10">
           <h1 className="text-[20px] text-syarpamainblue font-normal mb-4">
             Receive crypto from your friend

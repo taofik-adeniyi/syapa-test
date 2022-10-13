@@ -1,3 +1,3 @@
 export interface HeaderTypes {
-    pageName: string
+    pageName: string | React.ReactNode
 }

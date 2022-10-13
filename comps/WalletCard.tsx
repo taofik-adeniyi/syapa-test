@@ -12,7 +12,7 @@ const WalletCard = (props: any) => {
 
   return (
     <div
-      className={`flex items-center py-[15px] w-[439px] min-h-[100px] px-[30px] ${balanceTypeClass}`}
+      className={`flex items-center py-[15px] w-full md:w-[439px] min-h-[100px] px-[30px] ${balanceTypeClass}`}
     >
       <div className="flex flex-1 flex-col">
         {balanceType && (
